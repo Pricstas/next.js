@@ -51,7 +51,7 @@ pub(crate) struct ServerActionsManifest {
 
 /// Scans the RSC entry point's full module graph looking for exported Server
 /// Actions (identifiable by a magic comment in the transformed module's
-/// output), and constructs a evaluatable "action loader" entry point and
+/// output), and constructs an evaluatable "action loader" entry point and
 /// manifest describing the found actions.
 ///
 /// If Server Actions are not enabled, this returns an empty manifest and a None
